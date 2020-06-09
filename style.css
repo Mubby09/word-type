@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: bisque;
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 5px 15px;
+}
+
+button {
+    color: black;
+    background-color: yellow;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.settings {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: yellow;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* transform: translateY(0); */
+    transition: 0.5s transform ease-in-out;
+}
+
+.settings.hide {
+    transform: translateY(-100px);
+    transition: 0.5s transform ease-in-out;
+}
+
+.settings-btn {
+    bottom: 30px;
+    left: 30px;
+    position: absolute;
+}
+
+.instuction {
+    margin: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 1rem;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+select {
+    border: 0;
+    font-size: 15px;
+    margin: 5px;
+    width: 200px;
+    border-radius: 4px;
+    background-color: teal;
+    padding: 3px;
+}
+
+select:focus,
+button:focus {
+    outline: none;
+}
+
+.container {
+    background-color: #34495e;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px 2px #888888;
+    color: whitesmoke;
+    position: absolute;
+    text-align: center;
+    width: 400px;
+    position: relative;
+}
+
+.container h2 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+input {
+    border: 0;
+    border-radius: 4px;
+    font-size: 20px;
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.score-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.time-container {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.endgame-container {
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: inherit;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    /* background-color: inherit;
+    color: whitesmoke;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 1.5rem; */
+}
+
+@media(max-width: 500px) {
+    body {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+}
