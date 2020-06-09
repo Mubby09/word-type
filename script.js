@@ -51,7 +51,7 @@ let difficulty =
 difficultyEl.value =
   localStorage.getItem("difficulty") !== null
     ? localStorage.getItem("difficulty")
-    : easy;
+    : "easy";
 
 const timeInterval = setInterval(updateTime, 1000);
 
