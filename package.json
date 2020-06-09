@@ -1,0 +1,19 @@
+{
+  "name": "word-type",
+  "version": "1.0.0",
+  "description": "speed typing game",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mubby09/word-type.git"
+  },
+  "author": "Mubarak Akinsola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mubby09/word-type/issues"
+  },
+  "homepage": "https://github.com/Mubby09/word-type#readme"
+}
