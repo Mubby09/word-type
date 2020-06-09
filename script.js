@@ -33,23 +33,7 @@ const words = [
   "symptom"
 ];
 
-// function getRandomWord() {
-//   fetch("https://wordsapiv1.p.rapidapi.com/words/hatchback/typeOf", {
-//     method: "GET",
-//     headers: {
-//       "x-rapidapi-host": "wordsapiv1.p.rapidapi.com",
-//       "x-rapidapi-key": "e4fe7bfb7fmsh76996e99c8353abp16e2adjsnee33573ff050"
-//     }
-//   })
-//     .then((response) => {
-//       console.log(response);
-//     })
-//     .catch((err) => {
-//       console.log(err);
-//     });
-// }
-
-let randonWord;
+let randomWord;
 
 //initialize score
 let score = 0;
