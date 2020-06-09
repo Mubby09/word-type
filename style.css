@@ -94,7 +94,8 @@ button:focus {
 .container {
     background-color: #34495e;
     padding: 10px;
-    border-radius: 5px;
+    border: 1px solid snow;
+    border-radius: 20px;
     box-shadow: 2px 2px 8px 2px #888888;
     color: whitesmoke;
     position: absolute;
@@ -160,6 +161,8 @@ input:focus {
     height: 100%;
     z-index: 1;
     position: absolute;
+    border: 1px solid white;
+    border-radius: 20px;
     /* background-color: inherit;
     color: whitesmoke;
     position: absolute;

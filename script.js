@@ -45,7 +45,7 @@ let time = 10;
 let difficulty =
   localStorage.getItem("difficulty") !== null
     ? localStorage.getItem("difficulty")
-    : easy;
+    : "easy";
 
 //difficulty select value
 difficultyEl.value =
